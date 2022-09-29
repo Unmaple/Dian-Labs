@@ -1,7 +1,7 @@
 # Dian-Labs
 AIA曾明杰2201智实
 
--Warning：对应lab在本库的branches里，且本文档建议在编辑模式看（\n被吞成空格了。。。）
+-Warning：对应lab在本库的branches里  
 -Learning Machinelearning in this Labs  
 -学习python基础语法：9.24晚-9.25下午  
 初次认识lab0：9.25晚  
