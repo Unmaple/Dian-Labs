@@ -1,4 +1,5 @@
 # Dian-Labs
+AIA曾明杰2201智实
 Learning Machinelearning in this Labs
 学习python基础语法：9.24晚-9.25下午
 初次认识lab0：9.25晚
