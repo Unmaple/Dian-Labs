@@ -17,16 +17,16 @@ AIA曾明杰2201智实
 重构lab1的model结构，实现误差反向传播法，并且debug（最终发现是softmax函数的有一个地方少加了一个log。。。使用数值微分可以学习但是反向运算会出错））：9.29 中午  
 lab1运行10000个epoch，达到91.4%并学习了各类超参数的设置方式及初始化的技巧：9.29下午
 
-10.17测试结果：
-同时使用官方提供的baseline和yolov5两条技术路线，其中yolov5路线率先达到0.9正确率（2022.10.17，7：00结果：91.54%） 
-yolov5pipeline： 
-使用readjson处理赛事提供的数据成yolov 
-使用training的训练命令（即yolov5文件里的train.py 
-使用training中的测试命令（即yolov5文件里的detect.py 
-使用out.py将输出数据格式化成赛事提交的格式 
-注意事项：batchsize不能调太大，不仅占用显存大还延缓模型收敛速度 
-注意事项：有三个.yaml应当更改，--cfg，--data，--hyp，其中前两个为了改识别物体类别，最后是把图像水平翻转的图像增强去掉 
-
-baseline-pipeline 
-main.py函数 
-（因验证集正确率不理想故没有继续往下做输出） 
+10.17测试结果：  
+同时使用官方提供的baseline和yolov5两条技术路线，其中yolov5路线率先达到0.9正确率（2022.10.17，7：00结果：91.54%）  
+yolov5pipeline：  
+使用readjson处理赛事提供的数据成yolov  
+使用training的训练命令（即yolov5文件里的train.py  
+使用training中的测试命令（即yolov5文件里的detect.py  
+使用out.py将输出数据格式化成赛事提交的格式  
+注意事项：batchsize不能调太大，不仅占用显存大还延缓模型收敛速度  
+注意事项：有三个.yaml应当更改，--cfg，--data，--hyp，其中前两个为了改识别物体类别，最后是把图像水平翻转的图像增强去掉  
+  
+baseline-pipeline  
+main.py函数  
+（因验证集正确率不理想故没有继续往下做输出）  
